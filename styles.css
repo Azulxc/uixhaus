@@ -122,7 +122,7 @@ input {
 	-webkit-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     font-family: Montserrat;
-    font-weight: bold;
+    font-weight: 900;
     margin-left: 850px;
     margin-top: 25px;
 }
@@ -136,7 +136,7 @@ input {
 }
 
 .rrss {
-    margin: 16px;
+    margin: 15px;
 }
 
 .follow {
