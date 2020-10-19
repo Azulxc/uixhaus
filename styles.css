@@ -1,0 +1,154 @@
+body {
+    background-color: #000;
+}
+
+.uixhaus {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+h1 {
+position: absolute;
+width: 548px;
+height: 140px;
+
+margin: 10px;
+font-family: Montserrat;
+font-style: italic;
+font-weight: 900;
+font-size: 100px;
+line-height: 122px;
+text-align: center;
+color: #FF8500;
+padding-right: 150px;
+}
+
+.party {
+    color: white;
+}
+
+.dot {
+    color: #FF8500;
+}
+
+
+
+/*ticket*/
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700&display=swap');
+
+.wrapper {
+  
+  display: flex;
+  margin-left: 250px;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+
+.profile {
+  width: 700px;
+  height: 300px;
+ box-shadow: 13px 13px 60px -20px rgba(255, 133, 0, 0.5); 
+  border-radius: 1.5em;
+  overflow: hidden;
+  font-family: 'Asap', sans-serif;
+  pointer-events: none;
+  transition: transform 0.3s ease-out;
+}
+
+.profile .profile-photo {
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 10px), 0% 100%);
+}
+/*termina ticket*/
+
+.container {
+    padding-top: 150px;
+    padding-left: 250px;
+}
+
+
+h2 {
+    width: 352px;
+    height: 49px;
+    align-content: center;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 750px;
+}
+
+.registration {
+width: 641px;
+height: 21px;
+margin-left: 590px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+
+input {
+    width: 393px;
+    height: 61px;
+    margin-left: 720px;
+    margin-top: 15px;
+    background-color: #000;
+    border: solid 1px #FF8500;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Montserrat;
+    color: white;
+}
+
+/*boton*/
+.button--moema {
+	padding: 1.5em 3em;
+	border-radius:0px;
+	background: #FF8500;
+	color: #fff;
+	-webkit-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-left: 850px;
+    margin-top: 25px;
+}
+
+/*termina boton*/
+
+.containerRRSS {
+    display: flex;
+    align-content: center;
+    margin-left: 770px;
+}
+
+.rrss {
+    margin: 15px;
+}
+
+.follow {
+width: 641px;
+height: 21px;
+margin-left: 590px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 70px;
+}
